@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 1647828300087,
+      "NIM": "1941720033",
+      "nama": "Dwityantherrys Bekti Utomo",
+      "alamat": "jln.indahpermai",
+      "hp": "08122331123",
+      "angkatan": "2019",
+      "status": "mahasiswa"
+    },
+    {
+      "id": 1647828331330,
+      "NIM": "1941720421",
+      "nama": "tomo bana",
+      "alamat": "jln.indahsekali",
+      "hp": "08122331241",
+      "angkatan": "2019",
+      "status": "mahasiswa"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
