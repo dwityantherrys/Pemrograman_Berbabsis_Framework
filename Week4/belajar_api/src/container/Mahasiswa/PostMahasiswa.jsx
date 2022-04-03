@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Post = (props) => {
+const PostMahasiswa = (props) => {
     return (
         <div className="artikel">
             <div className="gambar-artikel">
@@ -18,7 +18,6 @@ const Post = (props) => {
                         <button className="btn btn-sm btn-danger" onClick={() => props.hapusMahasiswa(props.idMahasiswa)}>Hapus</button>
                     </div>
                     <div className="col-sm">
-                        
                     </div>
                 </div>
             </div>
@@ -26,4 +25,4 @@ const Post = (props) => {
     )
 }
 
-export default Post
+export default PostMahasiswa

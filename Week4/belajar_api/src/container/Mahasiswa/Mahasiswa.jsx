@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Mahasiswa.css'
-import Post from './PostMahasiswa'
+import PostMahasiswa from './PostMahasiswa'
 
 class Mahasiswa extends Component {
 
@@ -114,7 +114,7 @@ class Mahasiswa extends Component {
                         <div className="isiKonten">
                             <h2>Daftar Mahasiswa</h2><br/>{
                                 this.state.listMhs.map(mahasiswa => {     // looping dan masukan untuk setiap data yang ada di listArtikel ke variabel artikel
-                                    return <Post key={mahasiswa.id} nimMhs={mahasiswa.NIM} namaMhs={mahasiswa.nama} alamatMhs={mahasiswa.alamat} idMahasiswa={mahasiswa.id} noHp={mahasiswa.hp} angkatanMhs={mahasiswa.angkatan} statusMhs={mahasiswa.status} hapusMahasiswa={this.handleHapus} /> // mappingkan data json dari API sesuai kategorinya
+                                    return <PostMahasiswa key={mahasiswa.id} nimMhs={mahasiswa.NIM} namaMhs={mahasiswa.nama} alamatMhs={mahasiswa.alamat} idMahasiswa={mahasiswa.id} noHp={mahasiswa.hp} angkatanMhs={mahasiswa.angkatan} statusMhs={mahasiswa.status} hapusMahasiswa={this.handleHapus} /> // mappingkan data json dari API sesuai kategorinya
                                 })
                             }
                         </div>
